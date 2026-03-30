@@ -1,0 +1,42 @@
+ body {
+            
+            font-family: Perpetua;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login {
+    
+    border: none;
+    border-radius: 15px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.722);
+    height: 45%;
+    margin: 40px;
+    padding: 30px;
+    width: 26%;
+    text-align: left;
+}
+
+input[type="email"],
+input[type="password"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    height: 35px;
+
+}
